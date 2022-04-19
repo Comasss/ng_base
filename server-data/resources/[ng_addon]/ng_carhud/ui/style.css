@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Boxed;
+    src: url(./BoxedRound.ttf);
+}
+
+.container{
+    position: absolute;
+    left: 24%;
+    bottom: 3.5%;
+    transform: translateX(-50%);
+    width: 8vw;
+    height: 4vw;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.609);
+}
+
+#namev{
+    position: absolute;
+    top: -30px;
+    padding: 5px;
+    padding-left: 20px;
+    font-family: Boxed;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+	text-shadow: 1px 1px black;
+    text-align: center;
+    background-color: rgb(255, 0, 81);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+	border-radius: 3px;
+}
+
+#velocidad{
+    position: absolute;
+    font-family: Boxed;
+    font-size: 35px;
+    color:white;
+    text-shadow: 1px 1px black;
+    left: 10%;
+    bottom: 19%;
+}
+
+#gasolina-icon{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    font-size: 11px;
+    left: 53%;
+    bottom: 50%;
+}
+
+#speed-icon{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    font-size: 13px;
+    left: 3%;
+    bottom: 108%; 
+}
+
+#gasolina{
+    position: absolute;
+    font-family: Boxed;
+    text-shadow: 1px 1px black;
+    font-size: 14px;
+    color: white;
+    left: 63%;
+    bottom: 45%;
+}
+
+#km{
+    position: absolute;
+    font-family: Boxed;
+    text-shadow: 1px 1px black;
+    font-size: 14px;
+    color: white;
+    left: 52%;
+    bottom: 24%;
+}

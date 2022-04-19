@@ -1,0 +1,111 @@
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+sv_maxclients 10
+set steam_webApiKey "none"
+sets tags "default, esx"
+
+sv_licenseKey "jrsrfl6pqnzma7nk298ygx0u6da5e3sq"
+sv_hostname "ng_base"
+sets sv_projectName "ng_base"
+sets locale "root-AQ" 
+set mysql_connection_string "mysql://root@localhost/ng_base?charset=utf8mb4"
+set mysql_slow_query_warning 200
+set mysql_log_level 12
+load_server_icon ng_base.png
+
+# These resources will start by default.
+ensure mapmanager
+ensure chat
+ensure spawnmanager
+ensure sessionmanager
+ensure hardcap
+ensure rconlog
+## From ESX Pack ##
+start mysql-async
+start oxmysql
+start async
+start cron
+start es_extended
+start instance
+start skinchanger
+start esx_addonaccount
+start esx_addoninventory
+start esx_society
+start esx_policejob
+start esx_ambulancejob
+start esx_barbershop
+start esx_basicneeds
+start esx_billing
+start esx_boat
+start esx_eden_clotheshop
+start esx_cruisecontrol
+start esx_datastore
+start esx_dmvschool
+start esx_drugs
+start esx_holdup
+start esx_identity
+start esx_joblisting
+start esx_jobs
+start esx_license
+start esx_lscustom
+start esx_mechanicjob
+start esx_menu_default
+start esx_menu_dialog
+start esx_menu_list
+start esx_optionalneeds
+start esx_rpchat
+start esx_service
+start esx_shops
+start esx_sit
+start esx_skin
+start esx_status
+start esx_taxijob
+start esx_vehicleshop
+start esx_weaponshop
+
+
+## no-esx ##
+start LegacyFuel
+start guille_doorlock
+start cd_easytime
+start j-neonui
+start guille_policeblips
+start guille_gangsv2
+start guille_jobcreator
+start vb-banking
+start loaf_garage
+start gcphone
+start esx_pizzajob
+start esx_frutero
+start esx_minerojob
+
+## ng_addons ##
+start ng_carhud
+start ng_animspanel
+start ng_dispatch
+start ng_calles
+start ng_notify
+
+## COCHES ##
+
+## MAPEOS ## 
+start map_comisaria
+start map_taxi
+start map_hospital
+start map_ls
+
+## Additional Resource by Recipe ##
+ensure bob74_ipl
+
+## EasyAdmin
+setr ea_LanguageName "en"                # set our language to english
+set ea_moderationNotification "false"   # this can be either "false" or a discord webhook address, this will send a discord message if an admin takes actions against a player  ( such as banning and kicking )
+add_ace group.admin easyadmin allow
+
+add_ace resource.EasyAdmin command.add_ace allow
+add_ace resource.EasyAdmin command.remove_ace allow
+add_ace resource.EasyAdmin command.add_principal allow
+add_ace resource.EasyAdmin command.remove_principal allow
+
+add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.add_ace allow

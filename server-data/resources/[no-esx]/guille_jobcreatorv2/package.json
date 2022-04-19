@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "connection-string-parser": "^1.0.4",
+    "mysql2": "^2.3.3"
+  }
+}

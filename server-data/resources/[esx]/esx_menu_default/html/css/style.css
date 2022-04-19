@@ -1,0 +1,122 @@
+@font-face{
+    font-family: Frank;
+    src: url(/html/BoxedRound.ttf);
+}
+
+.menu {
+	font-family: Frank;
+	font-size: 10px;
+	padding: 12px;
+	min-width: 300px;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgb(255, 255, 255);
+	border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: rgb(255, 255, 255);
+	border-radius: 5px;
+  }
+
+.menu .head {
+    position: absolute;
+    top: -20px;
+    padding: 5px;
+    right: 12;
+    font-family: Frank;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+	text-shadow: 1px 1px black;
+    text-align: center;
+    background-color: rgb(255, 0, 81);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+	border-radius: 3px;
+}
+
+.menu .menu-items {
+	background: rgba(0, 0, 0, 0.767);
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	padding: 9px;
+	border-radius: 3px;
+	max-height: 450px;
+	overflow-y: auto;
+}
+
+.menu .menu-items .menu-item {
+	background-color: rgba(70, 70, 70, 0.422);
+    text-shadow: 1px 1px black;
+	display: block;
+	padding: 6px;
+	font-size: 15px;
+	text-align: left;
+	text-indent: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color: rgb(255, 0, 81);
+	border-radius: 5px;
+	color: #ffffffe3;
+	animation: fadeIn 5s;
+}

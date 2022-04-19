@@ -1,0 +1,1 @@
+JOB = setmetatable({ }, JOB)

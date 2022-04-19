@@ -1,0 +1,67 @@
+.edit-wrapper {
+    position: absolute;
+    width: 39.3vw;
+    height: 20vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(11, 13, 47);
+    border-radius: .3vw;
+    overflow-x: auto;
+    gap: .5vw;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5vw;
+}
+
+.job-wrapper {
+    position: relative;
+    height: auto;
+    min-height: 2vw;
+    top: 1vw;
+    text-align: center;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: .2vw;
+    width: 35vw;
+    padding: 1vw, 1vw, 1vw, 1vw;
+}
+
+.option {
+    color: black;
+    font-size: .7vw;
+}
+
+.save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 1vw;
+    background-color: rgb(54, 224, 11);
+    border-radius: .5vw;
+}
+
+.edit-ranks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.rank-num {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .2vw;
+    justify-content: center;
+}

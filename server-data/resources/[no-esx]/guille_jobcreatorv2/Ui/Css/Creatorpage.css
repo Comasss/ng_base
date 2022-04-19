@@ -1,0 +1,133 @@
+.confirm-button {
+    width: 5vw;
+    height: 1.5vw;
+    border-radius: .2vw;
+    bottom: 1vw;
+    right: 1vw;
+    background-color: rgb(21, 199, 15);
+}
+
+.aspects {
+    position: absolute;
+    width: 39.3vw;
+    height: 20vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(11, 13, 47);
+    border-radius: .3vw;
+    overflow-x: auto;
+}
+
+.aspect {
+    position: relative;
+    height: 90%;
+    min-width: 15vw;
+    max-width: 15vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    border-radius: .2vw;
+    background-color: rgb(4, 9, 77);
+}
+
+.titleaspect {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 8%;
+}
+
+.input {
+    background-color: rgb(255, 255, 255);
+    border: 0.05vw black solid;
+    border-radius: .2vw;
+    color: black;
+    font-size: .6vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.placemiddle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.jobname {
+    top: 3.5vw;
+    height: 1.2vw;
+    font-size: .7vw;
+}
+
+.joblabel {
+    top: 5.5vw;
+    height: 1.2vw;
+    font-size: .7vw;
+}
+
+.blippart {
+    position: absolute;
+    top: 12vw;
+    border-radius: .2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 11vw;
+    overflow-y: auto;
+    height: 7vw;
+    gap: .6vw;
+    background-color: rgb(6, 11, 59);
+}
+
+.addblip {
+    position: absolute;
+    width: 5vw;
+    height: 1.5vw;
+    background-color: rgb(194, 150, 7);
+    top: 7.35vw;
+    border-radius: .2vw;
+}
+
+.blipin {
+    width: 2vw;
+}
+
+.actualcoords {
+    width: 3vw;
+    border-radius: .2vw;
+    height: 1.2vw;
+    background-color: rgb(45, 11, 155);
+}
+
+.addrank {
+    position: absolute;
+    width: 5vw;
+    height: 1.5vw;
+    background-color: rgb(194, 150, 7);
+    top: 3.35vw;
+    border-radius: .2vw;
+}
+
+.rankpart {
+    position: absolute;
+    top: 11vw;
+    border-radius: .2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 11vw;
+    overflow-y: auto;
+    height: 12vw;
+    gap: .6vw;
+    background-color: rgb(6, 11, 59);
+}
+
+.cancel-button {
+    width: 5vw;
+    height: 1.5vw;
+    border-radius: .2vw;
+    top: 1vw;
+    right: 1vw;
+    background-color: rgb(199, 21, 15);
+}

@@ -1,0 +1,118 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: Boxed;
+	src: url('../fonts/BoxedRound.ttf');
+}
+
+#controls {
+	font-family: Boxed;
+	font-size: 5em;
+	color: #FFF;
+	position: absolute;
+	bottom: 40;
+	right: 40;
+}
+
+.controls {
+	display: none;
+}
+
+
+.dialog {
+	font-family: Boxed;
+	color: #fff;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 55%;
+	width: 640px;
+	height: 124px;
+	transform: translate(-50%, -50%);
+}
+
+.dialog.big {
+	height: 200px;
+}
+
+.dialog .head {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    background-color: rgb(255, 0, 81);
+	border-radius: 3px;
+	height: 30px;
+	width: 90px;
+	font-size: 19px;
+}
+
+.dialog .head span:before {
+	content: "";
+	height: 100%;
+	vertical-align: middle;
+}
+
+.dialog input[type="text"] {
+	font-family: Boxed;
+	width: 70%;
+	height: 42px;
+	outline: 0;
+	color: #fff;
+	font-size: 17px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	overflow: hidden;
+	resize: none;
+}
+
+.dialog textarea {
+	font-family: Boxed;
+	width: 100%;
+	height: 138px;
+	outline: 0;
+	color: #fff;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.63);
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.dialog button[name="submit"] {
+	font-family: Boxed;
+	top: 70%;
+	width: 7%;
+	margin-top: 10px;
+	margin-left: 348px;
+	color: #fff;
+	outline: 0;
+	text-shadow: 1px 1px black;
+	height: 33px;
+	font-size: 17px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.dialog button[name="cancel"] {
+	font-family: Boxed;
+	width: 7%;
+	margin-top: -32.8px;
+	margin-left: 400px;
+	color: rgb(255, 255, 255);
+	outline: none;
+	text-shadow: 1px 1px black;
+	height: 33px;
+	font-size: 17px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #000000;
+}
