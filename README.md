@@ -6,3 +6,5 @@
 - | Estética Propia.
 
   Preview: https://streamable.com/skj20u
+
+  Discord: https://discord.gg/Fn9fjP73Et
